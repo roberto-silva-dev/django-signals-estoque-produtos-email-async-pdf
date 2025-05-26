@@ -2,7 +2,7 @@
 
 1️⃣ Clone o repositório:  
 ```bash
-git clone https://github.com/roberto-silva-dev/django-signals-estoque-produtos-email-async.git
+git clone https://github.com/roberto-silva-dev/django-signals-estoque-produtos-email-async-pdf.git
 cd core
 ```
 
@@ -10,8 +10,15 @@ cd core
 ```bash
 pip install -r requirements.txt
 ```
-- Instale o Redis pelo link: `https://github.com/tporadowski/redis/releases` ou direto no site oficial `https://redis.io`
+# Instale o Redis pelo link: `https://github.com/tporadowski/redis/releases` ou direto no site oficial `https://redis.io`
 
+# Instale o wkhtmltopdf:
+ - Windows: https://wkhtmltopdf.org/downloads.html
+ - Linux: sudo apt install wkhtmltopdf
+ Obs.: Caso encontre o erro: `OSError at /relatorios/pdf/2
+    No wkhtmltopdf executable found: "b''"
+    If this file exists please check that this process can read it or you can pass path to it manually in method call, check README. Otherwise please install wkhtmltopdf - https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf`
+ -> Verifique a pasta de instalação e a inclua nas variáveis de ambiente do sistema como mosta o [print](./variaveis-ambiente.png)
 
 ### Configre o arquivo .env com as credenciais do servidor de e-mail
 

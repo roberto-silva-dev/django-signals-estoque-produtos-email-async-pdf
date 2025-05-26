@@ -5,6 +5,7 @@ Este é um sistema simples de gerenciamento de pedidos e produtos, desenvolvido 
 - Cadastrar produtos com controle de estoque.
 - Realizar pedidos, atualizando o estoque automaticamente através de **signals** do Django.
 - Listar os produtos e pedidos cadastrados.
+- Exportar os pedidos para pdf (usando dois métodos)
 
 ## 📄 Documentações
 - [Guia completo para criar o Projeto do Zero](./criando-do-zero.md)
